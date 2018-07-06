@@ -23,6 +23,11 @@ class Form extends Component {
             });
         });
     }
+    getName() {
+        this.setState({
+            item: response.data
+        })
+    }
     updateName(text) {
         this.setState.name({ text });
     }
